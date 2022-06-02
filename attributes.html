@@ -96,10 +96,22 @@
     <!-- li value=100 -->
     <hr />
     <h1>Download attribute</h1>
-    <a
-      href="https://file-examples.com/wp-content/uploads/2017/10/file-sample_150kB.pdf"
-      download="https://file-examples.com/wp-content/uploads/2017/10/file-sample_150kB.pdf"
-      >Download File</a
-    >
+    <a href="/file-sample_150kB.pdf">Download File</a>
+    <!-- download -->
+    <hr />
+    <h1>enterkeyhint attribute</h1>
+    <input enterkeyhint="go" />
+    <p contenteditable enterkeyhint="go">https://example.org</p>
+    <!-- enter done go next previous search send -->
+    <hr />
+    <h1>Form attribute</h1>
+    <form id="form1">
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname" />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname" form="form1" />
   </body>
 </html>

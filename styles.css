@@ -11,7 +11,8 @@ h3 {
 h1 {
   color: tomato;
 }
-select {
+select,
+datalist {
   width: 200px;
   padding: 10px;
 }
